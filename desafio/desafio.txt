@@ -1,0 +1,41 @@
+Desafio SQL
+
+Criar um banco de dados para controlar os atendimentos de uma clinica.
+A clinica possui diversos profissionais e pacientes e as tabelas criadas devem possibilitar fazer um agendamento para um paciente ser atendido por um profissional em determinado horário.
+Pacientes necessitam de nome, data de nascimento e sexo.
+Médicos somente nome e especialização(pediatra, cardiologista...)
+
+O objetivo é criar o banco de dados para essa estrutura e nos enviar o SQl.
+Também será necessário popular o banco com dados para que realizemos os testes, então precisaremos dos inserts dos dados.
+
+E por ultimo nos enviar uma query que mostre todos os agendamentos cadastrados, agrupados por especialização.
+Deverão ser listados nome do médico, especialização, paciente e data/horário de agendamento.
+Ordenados por data em ordem crescente.
+
+Desafio HTML
+
+Reproduzir o layout enviado em anexo utilizando html/css.
+Uma dica é utilizar o bootstrap que possui varias facilidades para desenvolvimento de layouts, mas se não tiver familiaridade tudo bem.
+O layout não precisa ser idêntico ao da imagem, é só uma referência de posicionamento dos elementos.
+Deverá ser enviado o código html e css criados para a página e também quaisquer outras arquivos ou dependências para executar os mesmos.
+
+Desafio Javascript
+
+Utilizando o html gerado no desafio anterior listar os hóspedes da estrutura abaixo nos cards que foram criados.
+Podem utilizar qualquer função ou técnica que preferirem.
+O objetivo é mostrar que sabem utilizar javascript e conhecem as estruturas básicas de progrmação.
+
+const hospedes = [
+	{ id: '1', nome: 'Antônio', nascimento: '1950-05-10', ativo: true},
+	{ id: '2', nome: 'Mario', nascimento: '1940-03-10', ativo: false},
+	{ id: '3', nome: 'Maria', nascimento: '1942-09-12', ativo: true},
+	{ id: '4', nome: 'Pedro', nascimento: '1934-12-15', ativo: true},
+	{ id: '5', nome: 'Joana', nascimento: '1925-12-15', ativo: true},
+	{ id: '6', nome: 'Joca', nascimento: '1910-02-10', ativo: true},
+	{ id: '7', nome: 'Clementina', nascimento: '1940-07-24', ativo: false},
+	{ id: '8', nome: 'Manuela', nascimento: '1931-05-25', ativo: true},
+	{ id: '9', nome: 'Mauricio', nascimento: '1920-02-04', ativo: true},
+	{ id: '10', nome: 'Kleber', nascimento: '1912-03-09', ativo: false},
+	{ id: '11', nome: 'Juarez', nascimento: '1921-01-07', ativo: true},
+	{ id: '12', nome: 'Michelângelo', nascimento: '1927-08-01', ativo: true }
+];
