@@ -7,7 +7,7 @@
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/global.css">
     <!-- bootstrap -->
@@ -15,7 +15,6 @@
     <title>Listagem de Hospedes</title>
 </head>
 <body>
-    
     <nav class="navbar navbar-expand-lg bar navbar-light">
         <div class="container-fluid">
             
@@ -32,7 +31,7 @@
         </div>
     </nav>
     
-    <div class="container">
+    <div class="content">
         <div class="actions-wrapper">
             <button class="button add" type="button">
                 + ADICIONAR HOSPEDE
@@ -42,30 +41,57 @@
                 IMPRIMIR
             </button>
             
-            
         </div>
-        <h2>Hospedes</h2>
-        
-        <div class="hospedes">
-            <div class="wrapper card" style="width: 90rem;">
+
+        <h2 class="title">Hospedes</h2>
+        <div class="hospedes row">
+            
+            <div class="wrapper card col-md-4" style="width: 42rem;">
                 <div class="foto">
                     <img src="./assets/user-placeholder.jpg" alt="" width="45px">
                 </div>
                 <h3 class="card-title">Afonso</h3>
                 <div class="card-body">
+                    <img src="./assets/house.png" alt="">
                     <p class="card-text">04/04/1950</p>
                 </div>
             </div>
             
-            <div class="wrapper card" style="width: 90rem;">
+            <div class="wrapper card col-md-4" style="width: 42rem;">
                 <div class="foto">
                     <img src="./assets/user-placeholder.jpg" alt="" width="45px">
                 </div>
                 <h3 class="card-title">Afonso</h3>
                 <div class="card-body">
+                    <img src="./assets/house.png" alt="">
                     <p class="card-text">04/04/1950</p>
                 </div>
             </div>
+            
+            <div class="wrapper card col-md-4" style="width: 42rem;">
+                <div class="foto">
+                    <img src="./assets/user-placeholder.jpg" alt="" width="45px">
+                </div>
+                <h3 class="card-title">Afonso</h3>
+                <div class="card-body inactive">
+                    <p class="card-text">Inativo</p>
+                </div>
+            </div>
+            
+            <div class="wrapper card col-md-4" style="width: 42rem;">
+                <div class="foto">
+                    <img src="./assets/user-placeholder.jpg" alt="" width="45px">
+                </div>
+                <h3 class="card-title">Afonso</h3>
+                <div class="card-body">
+                    <img src="./assets/house.png" alt="">
+                    <p class="card-text">04/04/1950</p>
+                </div>
+            </div>
+            
+            
+            
+            
             
         </div>
     </div>
