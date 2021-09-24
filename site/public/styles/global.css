@@ -113,7 +113,6 @@ body, button {
 .wrapper, .card {
     display: flex;
     align-items:center;
-    justify-content: right;
 }
 .wrapper {
     margin: 0.5rem;
@@ -125,6 +124,7 @@ body, button {
 }
 
 .card-title {
+    display: flex;
     font-size: 2.0rem;
 }
 .card-body {
@@ -145,7 +145,7 @@ body, button {
 }
 
 .inactive {
-    width: 100%;
+    /* width: 1 /00%; */
     font-size: 1.2rem;
     font-weight: 600;
     color: #fff;
