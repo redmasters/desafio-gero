@@ -12,3 +12,5 @@ const hospedes = [
 	{ id: '11', nome: 'Juarez', nascimento: '1921-01-07', ativo: true},
 	{ id: '12', nome: 'Michelângelo', nascimento: '1927-08-01', ativo: true }
 ];
+
+module.exports = hospedes
