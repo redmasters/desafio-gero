@@ -1,0 +1,33 @@
+<h2 class="title">Hospedes</h2>
+<div class="hospedes row">
+    
+    <div class="wrapper card col-md-4" style="width: 42rem;">
+        <div class="foto">
+            <img src="/images/user-placeholder.jpg" alt="" width="45px">
+        </div>
+        <h3 class="card-title">Afonso</h3>
+        <div class="card-body">
+            <img src="/images/house.png" alt="">
+            <p class="card-text">04/04/1950</p>
+        </div>
+    </div>
+    
+
+    <% hospedes.forEach(hospede => { %>
+        <%= hospede.id %>
+     
+    <% }) %>
+    
+   
+    <div class="wrapper card col-md-4" style="width: 42rem;">
+        <div class="foto">
+            <img src="/images/user-placeholder.jpg" alt="" width="45px">
+        </div>
+        <h3 class="card-title">Afonso</h3>
+        <div class="card-body inactive">
+            <p class="card-text">Inativo</p>
+        </div>
+    </div>
+    
+</div>
+

@@ -2,9 +2,9 @@ const db = require('../db/hospedes')
 
 module.exports = {
     list(req, res) {
-        const hospedes = db
+        const hospedes = db;
 
-        res.render("hospede", {hospedes: hospedes})
+        res.render("index", {hospedes: hospedes})
     },
 
 }

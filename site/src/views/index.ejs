@@ -11,15 +11,46 @@
         
     </div>
     
-    <%- include (`parts/${page}`) %> 
+    <h2 class="title">Hospedes</h2>
+    <div class="hospedes row">
+        
+        <% hospedes.forEach(hospede => { %>
+        <div class="wrapper card col-md-4" style="width: 42rem;">
+            <div class="foto">
+                <img src="/images/user-placeholder.jpg" alt="" width="45px">
+            </div>
+            <h3 class="card-title"><%= hospede.nome %><h3>
+            <div class="card-body">
+                <% if (hospede.ativo) { %>
+                    <img src="/images/house.png" alt="">
+                    <p class="card-text"><%= hospede.nascimento %> </p>
+                <% } else {%>
+                    <div class="card-body inactive">
+                        <p class="card-text">Inativo</p>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+        
+        
+            <!-- <div class="wrapper card col-md-4" style="width: 42rem;">
+                <div class="foto">
+                    <img src="/images/user-placeholder.jpg" alt="" width="45px">
+                </div>
+                <h3 class="card-title">inat</h3>
+                            </div> -->
+        <% }) %>
+            
+        </div>
+        
+        
+    </div>
     
-</div>
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-<script src="../db/hospedes.js"></script>
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="../db/hospedes.js"></script>
 </body>
 </html>
