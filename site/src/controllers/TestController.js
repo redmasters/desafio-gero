@@ -1,3 +1,5 @@
+const { render } = require("ejs");
+
 const hospedes = [
 	{ id: '1', nome: 'Antônio', nascimento: '1950-05-10', ativo: true},
 	{ id: '2', nome: 'Mario', nascimento: '1940-03-10', ativo: false},
@@ -13,5 +15,10 @@ const hospedes = [
 	{ id: '12', nome: 'Michelângelo', nascimento: '1927-08-01', ativo: true }
 ];
 
+function db(req, res) {
+    render = res.render('hospede', {hospedes: hospedes})
+    return render
 
-module.exports = hospedes
+}
+
+db(res)
