@@ -1,13 +1,21 @@
-geroLogo.png
+<div align="center">
+  <img src="geroLogo.png" alt="gero360"> 
+</div>
+
 # Desafio Gero360
 
-Desafio HTML-JavaScript:
+
+### Desafio HTML-JavaScript:
 
 Site Desktop:
-desktop.png
+<div align="center">
+  <img src="desktop.png">
+</div>
 
 Mobile:
-mobile.png
+<div align="center">
+  <img src="mobile.png">
+</div>
 
 Rodando o site:
 
