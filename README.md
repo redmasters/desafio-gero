@@ -38,7 +38,7 @@ Para executar o SQL:
 - Express
 - JavaScript
 - Sqlite
-- nodeJS v16.6.2
+- nodeJS >10.0.0
 
 ## 🖌️ Editores:
 - VSCode
