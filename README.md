@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="geroLogo.png" alt="gero360"> 
+  <img src="./prints/geroLogo.png" alt="gero360"> 
 </div>
 
 # Desafio Gero360
@@ -9,12 +9,12 @@
 
 Site Desktop:
 <div align="center">
-  <img src="desktop.png">
+  <img src="./prints/desktop.png">
 </div>
 
 Mobile:
 <div align="center">
-  <img src="mobile.png">
+  <img src="./prints/mobile.png">
 </div>
 
 ## Rodando o site:

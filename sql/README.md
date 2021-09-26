@@ -1,11 +1,17 @@
+<div align="center">
+  <img src="../prints/geroLogo.png">
+</div>
+
 # Desafio SQL
 
-beekeeper.png
+<div align="center">
+  <img src="../prints/beekeeper.png">
+</div>
 
 Implementei o desafio em sqlite, fiz uma configuração básica em JavaScript para gerar o banco de dados assim como suas tabelas. Os comandos ``npm run init-db`` e `` npm run insert-data`` criam o banco de dados com as tabelas abaixo descritas e inserem alguns pacientes e médicos à estas.
 Banco de dados: ``db.sqlite``
 
-Para executar, clone este repositório:
+### Para executar, clone este repositório:
 - ``https://github.com/redmasters/desafio-gero.git ``
 - ``cd desafio-gero/sql ``
 - ``npm install``
@@ -22,7 +28,10 @@ Para executar, clone este repositório:
 ## Views
 - vAgendamentos
 
-tabelas.png
+<div align="center">
+  <img src="../prints/tabelas.png">
+</div>
+
 
 ---
 ## Campos:
@@ -91,18 +100,21 @@ Esta query já retorna a data e horários formatados.
     '15-07-78',
     'M'
 )``
+
 ``INSERT INTO pacientes VALUES(
     null,
     'Marin',
     '28-10-88',
     'F'
 )``
+
 ``INSERT INTO pacientes VALUES(
     null,
     'Kiki',
     '02-01-98',
     'M'
 )``
+
 
 ### medicos
 ``INSERT INTO medicos VALUES(
@@ -111,12 +123,14 @@ Esta query já retorna a data e horários formatados.
     'Cardiologista'
 )
 ``
+
 ``INSERT INTO medicos VALUES(
     null,
     'Saori',
     'Clinico Geral'
 )
 ``
+
 ``INSERT INTO medicos VALUES(
     null,
     'Seiya',
@@ -166,7 +180,14 @@ order by
   data_agendamento asc
 ``
 
-datahora.png
+<div align="center">
+  <img src="../prints/datahora.png">
+  <h5>Resultado da Consulta</h5>
+</div>
+
+
+## 💡
+No arquivo [tabelas.sql](./tabelas.sql) constam todos os comandos usados para criação das tabelas do banco de dados e da view descritas aqui.
 
 ## 🚀 Tecnologias:
 - HTML
