@@ -190,10 +190,7 @@ order by
 No arquivo [tabelas.sql](./tabelas.sql) constam todos os comandos usados para criação das tabelas do banco de dados e da view descritas aqui.
 
 ## 🚀 Tecnologias:
-- HTML
-- CSS
-- EJS
-- Express
+
 - JavaScript
 - Sqlite
 - nodeJS v16.6.2
