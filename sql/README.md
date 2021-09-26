@@ -11,6 +11,10 @@
 Implementei o desafio em sqlite, fiz uma configuração básica em JavaScript para gerar o banco de dados assim como suas tabelas. Os comandos ``npm run init-db`` e `` npm run insert-data`` criam o banco de dados com as tabelas abaixo descritas e inserem alguns pacientes e médicos à estas.
 Banco de dados: ``db.sqlite``
 
+## ⚠️ Atencao
+O banco de dados neste repositorio ja conta com as tabelas criadas e populadas assim como a view de pesquisa, bastando apenas que se faca a consulta descrita em ["Consultando Agendamentos"](#consultando-agendamentos). Se preferir delete o arquivo db.sqlite e siga as instrucoes abaixo.
+
+
 ### Para executar, clone este repositório:
 - ``https://github.com/redmasters/desafio-gero.git ``
 - ``cd desafio-gero/sql ``
@@ -73,23 +77,6 @@ from
   inner join pacientes on pacientes.id = agendamentos.id_paciente
   ``
 
-Para adequar-se ao que foi pedido no desafio a query:
-
-`` 
-select
-  vAgendamentos.id,
-  vAgendamentos.nomeMedico,
-  vAgendamentos.especializacao,
-  vAgendamentos.nomePaciente,
-  strftime('%d/%m/%Y, %H:%M', data) as data_agendamento
-from
-  vAgendamentos
-order by
-  data_agendamento asc
-``
-
-Esta query já retorna a data e horários formatados.
-
 
 ## INSERT de dados:
 ### pacientes
@@ -138,7 +125,7 @@ Esta query já retorna a data e horários formatados.
 )``
 
 ### agendamentos
-Para agendar consultas insira o ID do paciente o ID do médico a data e horário no formato 'YYYY-MM-DD HH:MM:SS'
+Para agendar consultas, insira o ID do paciente o ID do médico a data e o horário no formato 'YYYY-MM-DD HH:MM:SS'
 
 ``INSERT INTO agendamentos VALUES (
     null,
