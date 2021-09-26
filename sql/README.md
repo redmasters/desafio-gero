@@ -193,7 +193,7 @@ No arquivo [tabelas.sql](./tabelas.sql) constam todos os comandos usados para cr
 
 - JavaScript
 - Sqlite
-- nodeJS v16.6.2
+- nodeJS >10.0.0
 
 ## 🖌️ Editores:
 - VSCode
