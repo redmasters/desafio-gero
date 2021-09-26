@@ -17,7 +17,7 @@ Mobile:
   <img src="mobile.png">
 </div>
 
-Rodando o site:
+## Rodando o site:
 
 Clone este repositório:
 - ``https://github.com/redmasters/desafio-gero.git ``
