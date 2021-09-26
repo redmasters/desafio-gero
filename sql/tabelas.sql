@@ -43,7 +43,7 @@ INSERT INTO pacientes VALUES( null, 'Hyoga', '15-07-78', 'M' )
 INSERT INTO pacientes VALUES( null, 'Marin', '28-10-88', 'F' ) 
 INSERT INTO pacientes VALUES( null, 'Kiki', '02-01-98', 'M' )
 
-NSERT INTO medicos VALUES( null, 'Camus', 'Cardiologista' )
+INSERT INTO medicos VALUES( null, 'Camus', 'Cardiologista' )
 
 INSERT INTO medicos VALUES( null, 'Saori', 'Clinico Geral' )
 
